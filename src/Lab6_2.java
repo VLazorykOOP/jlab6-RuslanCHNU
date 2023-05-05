@@ -8,13 +8,13 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Lab5_2 extends JFrame {
+public class Lab6_2 extends JFrame {
 
     private JTextField textField;
     private JButton button;
     private JTable table;
 
-    private Lab5_2() {
+    private Lab6_2() {
         setTitle("Лаб 1");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(900, 600);
@@ -80,7 +80,7 @@ public class Lab5_2 extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Lab5_2();
+        new Lab6_2();
     }
 
     private static class InvalidDataException extends ArithmeticException {

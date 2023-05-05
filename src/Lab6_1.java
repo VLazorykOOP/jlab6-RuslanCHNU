@@ -4,7 +4,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Lab5_1 extends JFrame {
+public class Lab6_1 extends JFrame {
 
     private int centerX, centerY;
     private int lineLength = 200;
@@ -12,7 +12,7 @@ public class Lab5_1 extends JFrame {
     private Color[] colors = {Color.RED, Color.GREEN, Color.BLUE};
     private int colorIndex = 0;
 
-    private Lab5_1() {
+    private Lab6_1() {
         setTitle("Rotating Line");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 400);
@@ -57,6 +57,6 @@ public class Lab5_1 extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Lab5_1();
+        new Lab6_1();
     }
 }
